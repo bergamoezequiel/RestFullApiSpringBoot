@@ -26,9 +26,9 @@ public class UserDaoService {
 		return null;
 	}
 	
-	public void addUser() {
+	public void addUser(String name,String dni) {
 		maxId+=1;
-		users.add(new User(maxId,"nombre","dni"));
+		users.add(new User(maxId,name,dni));
 	}
 	
 }
