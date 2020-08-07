@@ -1,9 +1,16 @@
 package com.ezequiel.microwithSB.Usuarios;
 
+import javax.validation.constraints.Size;
+
 public class User {
+	
 	private Integer id;
+	
+	
 	private String name;
+	
 	private String dni;
+	
 	public User(Integer id, String name, String dni) {
 		super();
 		this.id = id;

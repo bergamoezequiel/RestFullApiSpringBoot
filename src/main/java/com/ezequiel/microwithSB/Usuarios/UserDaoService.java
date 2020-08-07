@@ -3,11 +3,16 @@ package com.ezequiel.microwithSB.Usuarios;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 import org.springframework.stereotype.Component;
 
 @Component
 public class UserDaoService {
+	
+	
 	private static Integer maxId=2;
+	
 	private static List<User> users = new ArrayList<User>();
 	static {
 		users.add(new User(1,"ezequiel","37245432"));
